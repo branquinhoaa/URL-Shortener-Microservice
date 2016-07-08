@@ -1,4 +1,5 @@
 var mongo = require('mongodb').MongoClient;
+console.log(process.env);
 var url = process.env.MONGOLAB_URI;
 var crypto = require("crypto");
 
